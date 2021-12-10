@@ -1,0 +1,49 @@
+.BookCard {
+  width: 280px;
+  height: 180px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 24px rgba(84, 16, 95, 0.13);
+  border-radius: 4px;
+  display: flex;
+
+  .first-column {
+    img {
+      margin: 28px 16px;
+      width: 81px;
+      height: 103.75px;
+    }
+  }
+
+  .second-column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 16px 27px 16px 0 ;
+
+    .first-row {
+      .title{
+        font-weight: 500;
+        font-size: 14px;
+        color: #333333;
+      }
+  
+      .subtitle {
+        font-size: 12px;
+        color: #AB2680;
+      }
+    }
+
+    .second-row {
+      display: flex;
+      flex-direction: column;
+      .info {
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+      }
+    }
+
+
+  }
+
+}

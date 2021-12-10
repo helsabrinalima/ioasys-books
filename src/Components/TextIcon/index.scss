@@ -1,0 +1,17 @@
+.TextIcon {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  
+  span {
+    margin-right: 16px;
+  }
+
+  bold {
+    font-weight: 700;
+  }
+  
+  .Button:nth-child(3){
+    margin-left: 8px;
+  }
+}

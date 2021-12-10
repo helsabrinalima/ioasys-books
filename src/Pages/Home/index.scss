@@ -1,0 +1,43 @@
+.Home {
+  padding: 42px 5%;
+  min-height: 768px;
+  background: no-repeat url(../../assets/images/bg-image-home.svg);
+  background-size: cover;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .Logo {
+      padding: 0;
+    }
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .BookCard {
+      margin: 40px 0 20px 0;
+      padding: 0 5px;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 88px;
+  }
+
+  @media  screen and (max-width: 640px) {
+    .main {
+      display: flex;
+
+    }
+    .BookCard {
+      margin: 40px 20px 20px 0;
+    }
+  }
+}
